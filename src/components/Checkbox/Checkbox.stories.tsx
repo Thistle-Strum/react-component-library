@@ -3,23 +3,22 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import "tailwindcss/tailwind.css";
 
-import Nav from "./Nav";
+import Checkbox from "./Checkbox";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "ReactComponentLibrary/Button",
-  component: Nav,
+  component: Checkbox,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-} as ComponentMeta<typeof Nav>;
+} as ComponentMeta<typeof Checkbox>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Nav> = (args) => <Nav {...args} />;
+const Template: ComponentStory<typeof Checkbox> = (args) => (
+  <Checkbox {...args} />
+);
 
-export const Nav1 = Template.bind({});
+export const SelfieCheckbox = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Nav1.args = {};
-
-// export const ClickMe = Template.bind({});
-// ClickMe.args = {
-//   label: "Click Me",
-// };
+SelfieCheckbox.args = {
+  //   label: "Text",
+};
