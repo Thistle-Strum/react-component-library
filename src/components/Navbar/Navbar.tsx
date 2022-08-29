@@ -23,7 +23,7 @@ const navItems = [
   },
 ];
 //accepts arr of item objects
-function Nav(props: NavProps) {
+function Navbar(props: NavProps) {
   return (
     <div className=" flex flex-row justify-between bg-[#181B38] py-10">
       <h1 className="text-green-500">Logo</h1>
@@ -45,4 +45,4 @@ function Nav(props: NavProps) {
   );
 }
 
-export default Nav;
+export default Navbar;

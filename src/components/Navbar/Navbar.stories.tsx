@@ -3,21 +3,21 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import "tailwindcss/tailwind.css";
 
-import Nav from "./Nav";
+import Navbar from "./Navbar";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "ReactComponentLibrary/Button",
-  component: Nav,
+  title: "ReactComponentLibrary/Navbar",
+  component: Navbar,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-} as ComponentMeta<typeof Nav>;
+} as ComponentMeta<typeof Navbar>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Nav> = (args) => <Nav {...args} />;
+const Template: ComponentStory<typeof Navbar> = (args) => <Navbar {...args} />;
 
-export const Nav1 = Template.bind({});
+export const Navbar1 = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Nav1.args = {};
+Navbar1.args = {};
 
 // export const ClickMe = Template.bind({});
 // ClickMe.args = {

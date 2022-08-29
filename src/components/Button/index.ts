@@ -1,1 +1,1 @@
-export { default } from "./SelfieButtons";
+export { default } from "./Button";
