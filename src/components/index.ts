@@ -1,4 +1,5 @@
 import "../index.css";
 
-export { default as Navbar } from "./Navbar";
-export { default as Button } from "./Button";
+export { Navbar } from "./Navbar";
+export { Button } from "./Button";
+export { Checkbox } from './Checkbox';
