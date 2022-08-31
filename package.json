@@ -9,7 +9,9 @@
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "style:check": "prettier --check 'src/**/**/*.{ts,tsx}'",
+    "style:fix": "prettier --write src/**/**/*.{ts,tsx}"
   },
   "author": "David Benitez",
   "license": "ISC",
