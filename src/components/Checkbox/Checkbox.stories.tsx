@@ -1,13 +1,13 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import "tailwindcss/tailwind.css";
+import 'tailwindcss/tailwind.css';
 
-import { Checkbox } from "./Checkbox";
+import { Checkbox } from './Checkbox';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "ReactComponentLibrary/Checkbox",
+  title: 'ReactComponentLibrary/Checkbox',
   component: Checkbox,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 } as ComponentMeta<typeof Checkbox>;

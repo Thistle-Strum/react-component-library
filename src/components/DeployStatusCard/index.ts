@@ -1,1 +1,1 @@
-export { DeployStatusCard } from "./DeployStatusCard";
+export { DeployStatusCard } from './DeployStatusCard';

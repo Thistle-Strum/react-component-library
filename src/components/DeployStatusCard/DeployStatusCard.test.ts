@@ -1,3 +1,3 @@
-describe("DeployStatusCard", () => {
-  it("stub", () => {});
+describe('DeployStatusCard', () => {
+  it('stub', () => {});
 });

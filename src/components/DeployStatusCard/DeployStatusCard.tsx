@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo } from 'react';
 
 export interface DeployStatusCardProps {
   readonly deployInformation: { [key: string]: string }[];
@@ -18,7 +18,7 @@ export const DeployStatusCard: React.VFC<DeployStatusCardProps> = ({
   return (
     <section className="w-full max-w-3xl m-0 p-0">
       <h2 className="text-3xl mb-4">
-        Deploy:{" "}
+        Deploy:{' '}
         <span className="tracking-2 font-normal">{truncatedDeployHash}</span>
       </h2>
       <div className="max-w-3xl bg-[#FFF] shadow-card rounded px-4 pb-0 overflow-x-auto">
@@ -40,8 +40,7 @@ export const DeployStatusCard: React.VFC<DeployStatusCardProps> = ({
                 <button
                   className="text-slate-500 hover:text-neutral-400 focus:text-green-400 transition-all"
                   type="button"
-                  onClick={() => navigator.clipboard.writeText(deployHash)}
-                >
+                  onClick={() => navigator.clipboard.writeText(deployHash)}>
                   Copy
                 </button>
               </td>

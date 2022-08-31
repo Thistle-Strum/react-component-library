@@ -1,20 +1,20 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import "tailwindcss/tailwind.css";
+import 'tailwindcss/tailwind.css';
 
-import { DeployStatusCard } from "./DeployStatusCard";
+import { DeployStatusCard } from './DeployStatusCard';
 
 const deployArray = [
-  { timestamp: "Aug 30, 2022 5:45:02 PM" },
+  { timestamp: 'Aug 30, 2022 5:45:02 PM' },
   {
     deployHash:
-      "28b4fbf167b51213ff84663eea0b6075a447e85c22c63c36f9378c418f19a2b0",
+      '28b4fbf167b51213ff84663eea0b6075a447e85c22c63c36f9378c418f19a2b0',
   },
 ];
 
 export default {
-  title: "ReactComponentLibrary/DeployStatusCard",
+  title: 'ReactComponentLibrary/DeployStatusCard',
   component: DeployStatusCard,
 } as ComponentMeta<typeof DeployStatusCard>;
 
