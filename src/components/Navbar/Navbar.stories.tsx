@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import "tailwindcss/tailwind.css";
 
-import Navbar from "./Navbar";
+import { Navbar } from "./Navbar";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

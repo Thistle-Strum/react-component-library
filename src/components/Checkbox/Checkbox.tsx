@@ -1,11 +1,9 @@
 import React from "react";
 
 export interface CheckboxProps {
-  label: string;
+  readonly label: string;
 }
 
-const Checkbox = () => {
-  return <div></div>;
+export const Checkbox: React.VFC<CheckboxProps> = ({ label }) => {
+  return <div>{label}</div>;
 };
-
-export default Checkbox;
